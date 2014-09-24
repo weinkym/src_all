@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="6dip">
+      
+     
+<RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dip"
+      android:layout_marginRight="5dip"
+      android:background="#ffffff">
+     <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:text="金守艺"
+            android:textColor="#000000"
+            android:textSize="18.0sp" />
+     
+     <TextView
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="15dip"
+            android:text="女"
+            android:textColor="#808080"
+            android:textSize="15.0sp" />
+     
+     <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sex"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="15dip"
+            android:text="70岁"
+            android:textColor="#808080"
+            android:textSize="15.0sp" />
+     
+     <TextView
+            android:id="@+id/patientNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="5dip"
+            android:text="07158732"
+            android:textColor="#808080"
+            android:textSize="15.0sp" />
+     
+      <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/patientNo"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="5dip"
+            android:text="2014-5-15(13)"
+            android:textColor="#808080"
+            android:textSize="15.0sp" />
+     
+     <TextView
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patientNo"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="5dip"
+            android:text="主治医生："
+            android:textColor="#808080"
+            android:textSize="15.0sp" />
+     
+     <TextView
+            android:id="@+id/doctorname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/doctor"
+            android:layout_below="@id/patientNo"
+            android:layout_marginTop="5dip"
+            android:text="高峰"
+            android:textColor="#808080"
+            android:textSize="15.0sp" />
+    
+      <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip" 
+            android:layout_below="@id/patientNo"
+            android:text="详情"
+            android:textColor="#31aa61"
+            android:textSize="12.0sp" />
+    
+</RelativeLayout> 
+</LinearLayout>

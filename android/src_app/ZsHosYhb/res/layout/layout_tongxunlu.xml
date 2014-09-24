@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/fl_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/headbackground" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+            <Button
+                android:id="@+id/btn_head_back"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:background="@drawable/iv_titlebar_back"
+                android:clickable="true" />
+            <ImageButton 
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/clound"
+                android:layout_toRightOf="@+id/btn_head_back"
+                android:background="@color/transparent"/>
+            
+            <Button
+                android:id="@+id/btn_keshi"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left|center"
+                android:background="@drawable/btn_left_dg"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"                
+                android:text="@string/keshi"
+               android:textColor="@color/white"                
+                android:clickable="true" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+            <Button
+                android:id="@+id/btn_geren"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left|center"
+                android:background="@drawable/btn_right_g"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/geren"
+                android:textColor="@color/black"
+                android:clickable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:background="@color/red">
+        
+        <EditText 
+            android:id="@+id/et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="搜索"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/lv_tongxunlu"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:divider="@null" />        
+
+        <com.tynet.app.ui.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:layout_gravity="right|center" />
+    </LinearLayout>
+</LinearLayout>

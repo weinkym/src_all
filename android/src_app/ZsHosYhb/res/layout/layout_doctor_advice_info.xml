@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/main_top_lay" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <include layout="@layout/layout_head" />
+    </RelativeLayout>
+
+    
+    <ScrollView android:layout_width="fill_parent"  android:layout_height="fill_parent" android:scrollbars="vertical">     
+  <LinearLayout android:layout_marginTop="20dip" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="wrap_content"> 
+     
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+                                        
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="开始时间："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+          
+           <TextView 
+             android:id="@+id/start_time"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+              
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+                           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="医嘱内容："
+             android:layout_marginLeft="20dip" 
+             android:textColor="#000000"/>
+                                                      
+           <TextView 
+             android:id="@+id/doctor_advice_detail"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+                       
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+                           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="用法："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/use_way"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+                       
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="频率："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/frequency"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+                       
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="开单医生："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/doc_kaidan"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="医嘱类型："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/doctor_advice_type"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="医嘱状态："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/doctor_advice_state"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="医嘱描述："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/doctor_advice_description"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="停止时间："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/time_stop"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="停止医生："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/doctor_stop"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="停止执行时间："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/time_stop_execute"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="停止执行人："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/stop_operator"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="皮试结果："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/skin_test_result"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="医嘱名称："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/doctor_advice_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="药品规格："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/medicine_type"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="执行人："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/operator"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+         </LinearLayout>
+         
+         <LinearLayout android:layout_marginBottom="5dip" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content">
+           
+           <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="核对人："
+             android:layout_marginLeft="20dip"
+             android:textColor="#000000"/>
+           
+           <TextView 
+             android:id="@+id/proofreader"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#000000"/>
+     </LinearLayout>           
+</LinearLayout>
+</ScrollView>    
+</LinearLayout>

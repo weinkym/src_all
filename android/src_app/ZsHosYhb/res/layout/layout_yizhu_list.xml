@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/main_top_lay" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <include layout="@layout/layout_head" />
+    </RelativeLayout>
+     <ListView 
+         android:id="@+id/yizhu_list" 
+         android:background="#fff0f0f0" 
+         android:listSelector="@android:color/transparent"   
+         android:divider="@null" 
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent">
+         
+     </ListView> 
+                 
+   
+      
+</LinearLayout>

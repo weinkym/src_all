@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dialog_margin_top">
+       
+        <LinearLayout android:layout_alignParentRight="true"  android:orientation="vertical" android:id="@+id/main_dialog_layout" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+				 <GridView android:gravity="center" android:id="@+id/gv_gridview" android:background="@color/transparent" android:layout_width="200dip" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:horizontalSpacing="-0.5dip" android:verticalSpacing="-0.5dip" android:numColumns="2" />
+<!--             <LinearLayout android:id="@+id/ll_doctor" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textSize_large" android:textColor="#ffffffff" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="医生" />
+            </LinearLayout> -->
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

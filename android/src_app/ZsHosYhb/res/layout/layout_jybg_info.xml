@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff" >
+
+<RelativeLayout
+    android:id="@+id/main_top_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <include layout="@layout/layout_head" />
+</RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dh"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+
+            <TextView
+                android:id="@+id/jybg_dh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_test"
+                android:layout_marginLeft="@dimen/margin_text_default"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xm"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+
+                <TextView
+                    android:id="@+id/jybg_xm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temp_test"
+                                    android:layout_marginLeft="@dimen/margin_text_default"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xb"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+
+                <TextView
+                    android:id="@+id/jybg_xb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temp_test"
+                    android:layout_marginLeft="@dimen/margin_text_default"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ks"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+
+            <TextView
+                android:id="@+id/jybg_ks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_test"
+                android:layout_marginLeft="@dimen/margin_text_default"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jyxm"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+
+                <TextView
+                    android:id="@+id/jybg_jyxm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temp_test"
+                    android:layout_marginLeft="@dimen/margin_text_default"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yb"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+
+                <TextView
+                    android:id="@+id/jybg_yb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temp_test"
+                    android:layout_marginLeft="@dimen/margin_text_default"
+                    android:textColor="@color/default_text"
+                    android:textSize="@dimen/textSize_normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cjsj"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+
+            <TextView
+                android:id="@+id/jybg_cjsj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_test"
+                android:layout_marginLeft="@dimen/margin_text_default"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bgsj"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+
+            <TextView
+                android:id="@+id/jybg_bgsj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_test"
+                android:layout_marginLeft="@dimen/margin_text_default"
+                android:textColor="@color/default_text"
+                android:textSize="@dimen/textSize_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_text_black"
+            android:gravity="center"
+            android:text="@string/xiangmu"
+            android:textColor="@color/default_text"
+            android:textSize="@dimen/textSize_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_text_black"
+            android:gravity="center"
+            android:text="@string/jg"
+            android:textColor="@color/default_text"
+            android:textSize="@dimen/textSize_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_text_black"
+            android:gravity="center"
+            android:text="@string/ckfw"
+            android:textColor="@color/default_text"
+            android:textSize="@dimen/textSize_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_text_black"
+            android:gravity="center"
+            android:text="@string/dw"
+            android:textColor="@color/default_text"
+            android:textSize="@dimen/textSize_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_text_black"
+            android:gravity="center"
+            android:text="@string/wjz"
+            android:textColor="@color/default_text"
+            android:textSize="@dimen/textSize_normal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:id="@+id/jybg_tb_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/tab_text_black"
+        android:gravity="center_vertical"
+        android:text="@string/mzsm"
+        android:textColor="@color/mzsm_text"
+        android:textSize="@dimen/textSize_litel_small" />
+
+</LinearLayout>

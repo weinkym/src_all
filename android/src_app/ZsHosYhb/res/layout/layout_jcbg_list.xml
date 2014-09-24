@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff0f0f0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main_top_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <include layout="@layout/layout_head" />
+    </RelativeLayout>
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab_text_black" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+                <ListView 
+                    android:id="@+id/lv_all"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"/>
+                <ListView 
+                    android:id="@+id/lv_fangshe"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"/>
+                <ListView 
+                    android:id="@+id/lv_bchao"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"/>
+                <ListView 
+                    android:id="@+id/lv_neijing"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"/>
+                <ListView 
+                    android:id="@+id/lv_xindian"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"/>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

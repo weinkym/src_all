@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/tab_height"
+    android:paddingLeft="0dip"
+    android:paddingRight="0dip"
+    android:background="@color/tab_text_black">  
+    
+    <TextView android:id="@+id/tab_label"  
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tab_height"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize_large"
+        android:background="@color/tab_text_black"/> 
+</RelativeLayout>

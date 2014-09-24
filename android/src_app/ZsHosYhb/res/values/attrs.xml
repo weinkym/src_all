@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="pageWidth" format="dimension" />
+    <attr name="barColor" format="color" />
+    <attr name="highlightColor" format="color" />
+    <attr name="fadeDelay" format="integer" />
+    <attr name="fadeDuration" format="integer" />
+    <attr name="roundRectRadius" format="dimension" />
+</resources>

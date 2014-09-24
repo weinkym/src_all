@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="main_bg_color">#fff0f0f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_green">#ff62c906</color>
+    <color name="titlebar_green">#ff16aefc</color>
+    <color name="titlebar_bg">#ff16aefc</color>
+    <color name="homepage_item_bg">#fff0f0f0</color>
+    <color name="homepage_item_pressed_bg">#ffdfebf1</color>
+    <color name="divider_color">#ffdddddd</color>
+    <color name="is_full">#fffe803c</color>
+    <color name="is_stop">#ff7f7f7f</color>
+    <color name="is_regist">#ff16aefc</color>
+    <color name="select_type">#ffe5e5e5</color>
+    <color name="hint_textcolor">#ff585858</color>
+    <color name="list_text_green_color">#ff66aa00</color>
+    <color name="list_text_orange_color">#fff55100</color>
+    <color name="list_text_name_color">#ff333333</color>
+    <color name="list_text_small_color">#ff808080</color>
+    <color name="red">#fffe0202</color>
+    <color name="title_normal">#ff1e1e1e</color>
+    <color name="select_item_color">#ffe6f2f8</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="dialog_bg">#f2333333</color>
+    <color name="dialog_line_bg">#ff2a2a2a</color>
+    <color name="listitem_black">#ff000000</color>
+     <color name="half_transparent">#aa000000</color>
+     <color name="text_darkgreen">#ff39b16a</color>
+     <color name="tab_text_black">#ffcccccc</color>
+     <color name="default_text">#ff000000</color>
+     <color name="mzsm_text">#ffff0000</color>
+     <color name="head_bg_green">#ff7dcf00</color>
+     
+</resources>

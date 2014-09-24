@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_titlebar"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:background="@drawable/headbackground" >
+
+    <Button
+        android:id="@+id/btn_head_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:background="@drawable/iv_titlebar_back"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/tv_head_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20.0sp" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/bq_btn_bg"
+        android:paddingTop="10.0dip"
+        android:visibility="gone" />
+
+</FrameLayout>

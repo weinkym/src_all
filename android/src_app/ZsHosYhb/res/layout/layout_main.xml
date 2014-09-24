@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/main_top_lay" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <include layout="@layout/layout_head" />
+    </RelativeLayout>
+    
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical" >
+
+        <include layout="@layout/line" />
+        </LinearLayout>
+   
+   <LinearLayout
+       android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:baselineAligned="false">
+    <RelativeLayout 
+        android:layout_weight="1"
+        android:id="@+id/hos_patient_lay"  android:layout_width="100dip" android:layout_height="100dip" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/hos_patient"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                   
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/hos_patient" />  
+                    
+                  <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_hos_patient"
+                    android:layout_below="@id/hos_patient"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="住院病人"/>
+              
+    </RelativeLayout>
+        <RelativeLayout android:layout_weight="1" android:id="@+id/doc_notice_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_toRightOf="@id/hos_patient_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/doc_notice"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/doc_notice" />
+                 
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_doc_notice"
+                    android:layout_below="@id/doc_notice"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="医生医嘱"/>
+    </RelativeLayout>
+   
+    <RelativeLayout android:layout_weight="1" android:id="@+id/check_correct_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_toRightOf="@id/doc_notice_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/check_correct"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/check_correct" />  
+                    
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_check_correct"
+                    android:layout_below="@id/check_correct"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="检验检查"/>
+    </RelativeLayout> 
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        >
+    <RelativeLayout android:layout_weight="1" android:id="@+id/ele_bingli_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_below="@id/hos_patient_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                  <ImageView
+                    android:id="@+id/ele_bingli"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ele_bingli" /> 
+                    
+                  <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_ele_bingli"
+                    android:layout_below="@id/ele_bingli"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="电子病历"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_weight="1" android:id="@+id/ele_hushi_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_toRightOf="@id/ele_bingli_lay" android:layout_below="@id/doc_notice_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/ele_hushi"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ele_hushi" /> 
+                    
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_ele_hushi"
+                    android:layout_below="@id/ele_hushi"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="电子病历"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_weight="1" android:id="@+id/address_list_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_toRightOf="@id/ele_hushi_lay" android:layout_below="@id/check_correct_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/address_list"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/address_list" /> 
+                    
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_address_list"
+                    android:layout_below="@id/address_list"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="通讯录"/>
+    </RelativeLayout>
+        
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        >
+    <RelativeLayout android:layout_weight="1" android:id="@+id/post_notice_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_below="@id/ele_bingli_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/post_notice"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/post_notice" /> 
+                    
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_post_notice"
+                    android:layout_below="@id/post_notice"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="公告通知"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_weight="1" android:id="@+id/oa_wait_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_toRightOf="@id/post_notice_lay" android:layout_below="@id/ele_hushi_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/oa_wait"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/oa_wait" /> 
+                    
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_oa_wait"
+                    android:layout_below="@id/oa_wait"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="OA待办"/>
+    </RelativeLayout>
+    
+     <RelativeLayout android:layout_weight="1" android:id="@+id/user_center_lay" android:layout_width="100dip" android:layout_height="100dip" android:layout_toRightOf="@id/oa_wait_lay" android:layout_below="@id/address_list_lay" android:layout_marginLeft="1dip" android:layout_marginTop="1.0dip" android:background="#ffffff"> 
+                 <ImageView
+                    android:id="@+id/user_center"
+                    android:layout_width="30dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="25dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/user_center" /> 
+                    
+                 <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#030303"
+                    android:id="@+id/tv_user_center"
+                    android:layout_below="@id/user_center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:text="个人中心"/>
+    </RelativeLayout>
+        
+    </LinearLayout>
+    
+   </LinearLayout>
+     <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/white"
+        >
+
+     </LinearLayout>
+</LinearLayout>

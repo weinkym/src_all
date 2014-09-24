@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contents">
+        <item>        您已成功预约</item>
+        <item>的第</item>
+        <item>个就诊序号，</item>
+        <item>取号时间</item>
+        <item>"，请携带有效身份证按时取号。
+        挂号凭证已经发送到手机"</item>
+        <item>，请注意查收，并凭此短信前去就诊。您可以进入预约记录对您的预约单进行操作。</item>
+    </string-array>
+    <string-array name="medicard_type">
+        <item>无医保卡</item>
+        <item>省医保</item>
+        <item>市医保</item>
+        <item>市民卡</item>
+        <item>农保</item>
+    </string-array>
+    <string-array name="search_type">
+        <item>搜索科室</item>
+        <item>搜索医生</item>
+    </string-array>
+</resources>

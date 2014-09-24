@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:orientation="vertical"
+        android:paddingTop="0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/keshi_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.3"
+                android:gravity="center|left"
+                android:text="@string/temp_test"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/keshi_dizhi"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="3"
+                android:gravity="left|center"
+                android:text="@string/temp_test"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.3"
+                android:gravity="right|center"
+                android:text="@string/waixian"
+                android:textSize="@dimen/textSize_small" />
+
+            <TextView
+                android:id="@+id/waixian"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3"
+                android:gravity="left|center"
+                android:text="@string/temp_test"
+                android:textSize="@dimen/textSize_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.3"
+                android:gravity="right|center"
+                android:text="@string/neixian"
+                android:textSize="@dimen/textSize_small" />
+
+            <TextView
+                android:id="@+id/neixian"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3"
+                android:gravity="left|center"
+                android:text="@string/temp_test"
+                android:textSize="@dimen/textSize_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#FFCCCCCC" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
